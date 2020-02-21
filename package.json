@@ -1,0 +1,41 @@
+{
+  "name": "nodebb-theme-palette",
+  "version": "1.0.0",
+  "nbbpm": {
+    "compatibility": "^2.0.0"
+  },
+  "description": "Palette theme for NodeBB",
+  "main": "theme.scss",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nodebb/nodebb-theme-palette"
+  },
+  "keywords": [
+    "nodebb",
+    "theme",
+    "forum",
+    "bootstrap",
+    "responsive"
+  ],
+  "contributors": [
+    {
+      "name": "Andrew Rodrigues",
+      "email": "andrew@designcreateplay.com",
+      "url": "https://github.com/psychobunny"
+    },
+    {
+      "name": "Julian Lam",
+      "email": "julian@designcreateplay.com",
+      "url": "https://github.com/julianlam"
+    },
+    {
+      "name": "Barış Soner Uşaklı",
+      "email": "baris@designcreateplay.com",
+      "url": "https://github.com/barisusakli"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nodebb/nodebb-theme-palette/issues"
+  }
+}

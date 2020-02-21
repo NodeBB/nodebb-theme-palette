@@ -1,0 +1,7 @@
+{
+    "id": "nodebb-theme-palette",
+    "name": "Palette",
+    "description": "The default theme for NodeBB as of v2.0.0. A minimalistic approach deployable as-is, or endlessly customisable.",
+    "url": "https://github.com/nodebb/nodebb-theme-palette",
+    "screenshot": "tbd.png"
+}
