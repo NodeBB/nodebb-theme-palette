@@ -9,6 +9,7 @@
 			</a>
 			<!-- ENDIF config.showSiteTitle -->
 
+			{{{ if !maintenanceHeader }}}
 			<ul id="main-nav" class="navbar-nav mr-auto">
 				{{{each navigation}}}
 				<!-- IF function.displayMenuItem, @index -->
@@ -137,3 +138,13 @@
 				</li>
 			</ul>
 			{{{ end }}} <!-- config.loggedIn -->
+			{{{ else }}} <!-- maintenanceHeader -->
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="{relative_path}/login">
+						<i class="fa fa-sign-in fa-fw d-xs-inline-block"></i>
+						<span>[[global:login]]</span>
+					</a>
+				</li>
+			</ul>
+			{{{ end }}} <!-- maintenanceHeader -->
