@@ -6,7 +6,7 @@
 </div>
 <div class="row">
 	<div class="<!-- IF widgets.sidebar.length -->col-lg-9 col-sm-12<!-- ELSE -->col-lg-12<!-- ENDIF widgets.sidebar.length -->">
-		<div class="row" itemscope itemtype="http://www.schema.org/ItemList">
+		<div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4" itemscope itemtype="http://www.schema.org/ItemList">
 			{{{each categories}}}
 			<!-- IMPORT partials/categories/item.tpl -->
 			{{{end}}}
