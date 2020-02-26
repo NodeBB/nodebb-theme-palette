@@ -33,8 +33,6 @@
 -->
 	<script>
 		window.addEventListener('DOMContentLoaded', function () {
-			// require(['forum/footer']);
-
 			<!-- IF useCustomJS -->
 			{{customJS}}
 			<!-- ENDIF useCustomJS -->
