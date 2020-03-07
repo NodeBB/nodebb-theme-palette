@@ -8,14 +8,7 @@
 <head>
 	<title>{browserTitle}</title>
 	{{{each metaTags}}}{function.buildMetaTag}{{{end}}}
-	<!--
 	<link rel="stylesheet" type="text/css" href="{relative_path}/assets/client<!-- IF bootswatchSkin -->-{bootswatchSkin}<!-- END -->.css?{config.cache-buster}" />
-	-->
-	<link rel="stylesheet" type="text/css" href="{relative_path}/dist/app.css" />
-	{{{if bootswatchSkin}}}
-	<link rel="stylesheet" type="text/css" href="{relative_path}/dist/vendors~css/{bootswatchSkin}-bootstrap-css.css" />
-	{{{end}}}
-
 	{{{each linkTags}}}{function.buildLinkTag}{{{end}}}
 
 	<script>
