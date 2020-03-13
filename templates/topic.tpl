@@ -36,13 +36,11 @@
 		<span style="margin: 5px; 0px;" class="text-muted pull-right"><i class="fa fa-eye"></i> <span class="human-readable-number" title="{viewcount}">{viewcount}</span></span>
 		<span style="margin: 5px; 0px;" class="text-muted pull-right"><i class="fa fa-pencil"></i> <span class="human-readable-number" title="{postcount}">{postcount}</span></span>
 
-		<hr class="hidden-xs"/>
+		<hr/>
 
 		<!-- IMPORT partials/topic/merged-message.tpl -->
 
 		<!-- IMPORT partials/topic/deleted-message.tpl -->
-
-		<hr class="visible-xs" />
 
 		<ul data-component="topic" class="posts" data-tid="{tid}" data-cid="{cid}">
 			{{{each posts}}}
