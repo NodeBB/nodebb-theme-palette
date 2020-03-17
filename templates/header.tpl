@@ -11,7 +11,7 @@
 	<!--
 	<link rel="stylesheet" type="text/css" href="{relative_path}/assets/client<!-- IF bootswatchSkin -->-{bootswatchSkin}<!-- END -->.css?{config.cache-buster}" />
 	-->
-	<link rel="stylesheet" type="text/css" href="{relative_path}/dist/app.css" />
+	<link rel="stylesheet" type="text/css" href="{relative_path}/assets/client.css" />
 	{{{each linkTags}}}{function.buildLinkTag}{{{end}}}
 
 	<script>
