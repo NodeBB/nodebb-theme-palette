@@ -8,14 +8,10 @@
 <head>
 	<title>{browserTitle}</title>
 	{{{each metaTags}}}{function.buildMetaTag}{{{end}}}
-	<!--
 	<link rel="stylesheet" type="text/css" href="{relative_path}/assets/client<!-- IF bootswatchSkin -->-{bootswatchSkin}<!-- END -->.css?{config.cache-buster}" />
-	-->
-	<link rel="stylesheet" type="text/css" href="{relative_path}/assets/client.css" />
 	{{{each linkTags}}}{function.buildLinkTag}{{{end}}}
 
 	<script>
-		var RELATIVE_PATH = "{relative_path}";
 		var config = JSON.parse('{{configJSON}}');
 		var app = {
 			template: "{template.name}",
