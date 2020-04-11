@@ -14,7 +14,6 @@
 	<script>
 		var config = JSON.parse('{{configJSON}}');
 		var app = {
-			template: "{template.name}",
 			user: JSON.parse('{{userJSON}}')
 		};
 	</script>
