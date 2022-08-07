@@ -1,6 +1,9 @@
 {
 	"id": "nodebb-theme-palette",
 	"library": "library.js",
+	"scripts": [
+		"public/palette.js"
+	],
 	"hooks": [
 		{ "hook": "static:app.load", "method": "init" },
 		{ "hook": "filter:widgets.getAreas", "method": "defineWidgetAreas" }
