@@ -17,6 +17,9 @@
     "bootstrap",
     "responsive"
   ],
+  "dependencies": {
+    "nodebb-theme-bootstrap5": "1.0.0"
+  },
   "contributors": [
     {
       "name": "Andrew Rodrigues",
