@@ -23,20 +23,7 @@
 	</div>
 	<!-- ENDIF !isSpider -->
 
-
-	<script defer src="{relative_path}/dist/app.bundle.js?{config.cache-buster}"></script>
-
-	{{{each scripts}}}
-	<script defer type="text/javascript" src="{scripts.src}"></script>
-	{{{end}}}
-
-	<script>
-		window.addEventListener('DOMContentLoaded', function () {
-			<!-- IF useCustomJS -->
-			{{customJS}}
-			<!-- ENDIF useCustomJS -->
-		});
-	</script>
+	<!-- IMPORT partials/footer/js.tpl -->
 
 	<div class="hide">
 
