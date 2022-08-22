@@ -18,12 +18,12 @@
 		};
 	</script>
 
-	<!-- IF useCustomHTML -->
+	{{{if useCustomHTML}}}
 	{{customHTML}}
-	<!-- END -->
-	<!-- IF useCustomCSS -->
+	{{{end}}}
+	{{{if useCustomCSS}}}
 	<style>{{customCSS}}</style>
-	<!-- END -->
+	{{{end}}}
 </head>
 
 <body class="{bodyClass} skin-<!-- IF bootswatchSkin -->{bootswatchSkin}<!-- ELSE -->noskin<!-- END --> mt-3" style="padding-top: 56px;"><!-- fix this to maybe auto-detect height of navbar? -->

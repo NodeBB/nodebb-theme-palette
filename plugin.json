@@ -2,10 +2,10 @@
 	"id": "nodebb-theme-palette",
 	"library": "library.js",
 	"scripts": [
-		"public/bootstrap.js"
+
 	],
 	"acpScripts": [
-		"public/bootstrap.js"
+
 	],
 	"hooks": [
 		{ "hook": "static:app.load", "method": "init" },
