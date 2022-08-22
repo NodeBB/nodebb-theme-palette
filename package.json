@@ -18,7 +18,6 @@
     "responsive"
   ],
   "dependencies": {
-    "nodebb-theme-bootstrap5": "https://github.com/NodeBB/nodebb-theme-bootstrap5.git"
   },
   "contributors": [
     {
